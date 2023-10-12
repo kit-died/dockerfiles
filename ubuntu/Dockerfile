@@ -1,5 +1,5 @@
 
-FROM ubuntu:18.04
+FROM ubuntu:latest
 
 RUN apt-get update; apt-get install -y curl nano sudo gnupg iputils-ping git glibc-source
 
